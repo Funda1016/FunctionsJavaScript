@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--buda button gii calisiyor h2 tag in uzerine geldiginde calisacAK
+    this demek te bu tagta innerhtml kismini tek tirnak nasilsin olark degisitir demek-->
+    <h2 onclick="this.innerHTML='nasilsin'">merhaba</h2>
+    <button onclick="degis(this)">Calistir</button>
+    <!--calistir yerine run gelecek-->
+    <script>
+function degis(x){
+x.innerHTML="RUN";
+}
+    </script>
+    
+</body>
+</html>
